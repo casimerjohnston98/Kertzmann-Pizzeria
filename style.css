@@ -1,0 +1,44 @@
+body {
+    background: black;
+}
+
+.header {
+    text-align: center;
+}
+
+.mainLinkStyle {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-between; /* Adjust button spacing */
+    display: inline-block;
+}
+
+.navList button {
+    flex-grow: 1;
+}
+
+.navBarButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navBarButton:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
